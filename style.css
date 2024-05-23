@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Container Settings */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+/*Links */
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/*Image Carousel */
+.imageSlide {
+    display: none;
+}
+
+.hero-image {
+    display: inline-block;
+    width: 60%;
+    height: 60%;
+}
+
+.hero-text {
+    display: inline;
+    width: 40%;
+    height: 100%;
+    align-self: center;
+    justify-self: center;
+}
+
+.prev-button {
+    width: 100px;
+    height: 100px;
+}
+
+.next-button {
+    width: 100px;
+    height: 100px;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+/*Images */
+
+
+/*Text Settings */
+
+#about-text {
+    align-self: center;
+    justify-self: center;
+}
+
+/*Nav Bar Settings */
+
+#navbar {
+    background-color: transparent;
+    z-index: 1;
+    margin-top: 50px;
+}
+
+.brand {
+    margin: 50px;
+    text-decoration: none;
+    font-family: 'League Spartan';
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+}
+
+.navlink {
+    margin: 20px;
+    text-decoration: none;
+    font-family: 'League Spartan';
+    color: white;
+}
+
+/*Typography */
+
+.heading {
+    font-family: 'League Spartan';
+    font-weight: 700;
+    font-size: 40px;
+    margin-left: 150px;
+    margin-right: 100px;
+    padding-bottom: 20px;
+}
+
+.subheading {
+    font-family: 'League Spartan';
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    line-height: px;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.heading-body-text {
+    font-family: 'League Spartan';
+    font-size: 12px;
+    font-weight: 500;
+    color: hsl(0, 0%, 63%);
+    margin-left: 150px;
+    margin-right: 110px;
+    padding-bottom: 20px;
+}
+
+.about-body-text {
+    font-family: 'League Spartan';
+    font-size: 12px;
+    font-weight: 500;
+    color: hsl(0, 0%, 63%);
+    margin-left: 70px;
+    margin-right: 70px;
+    line-height: 1.2;
+}
+
+/* Buttons */
+
+.button {
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+
+.button-text {
+    font-family: 'League Spartan';
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 10px;
+    margin-left: 150px;
+    margin-right: 10px;
+    text-transform: uppercase;
+}
+
+#arrow-button-left {
+    background-color: hsl(0, 0%, 27%);
+    border: none;
+    outline: none;
+}
+
+#arrow-button-right {
+    background-color: hsl(0, 0%, 27%);
+    border: none;
+    outline: none;
+}
