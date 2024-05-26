@@ -127,7 +127,7 @@ li {
     font-family: 'League Spartan';
     font-weight: 700;
     font-size: 40px;
-    margin-left: 150px; /* Push away from the header image */
+    margin-left: 120px; /* Push away from the header image */
     margin-right: 100px; /* Push away from the webpage edge */
     padding-bottom: 20px; /* Allow room between the header and the text */
 }
@@ -159,8 +159,8 @@ li {
     font-weight: 500;
     color: hsl(0, 0%, 63%);
     padding-bottom: 20px;
-    margin-left: 150px; /* Align with heading */
-    margin-right: 50px;
+    margin-left: 120px; /* Align with heading */
+    margin-right: 120px;
     line-height: 1.2;
 }
 
@@ -179,7 +179,7 @@ li {
     font-size: 16px;
     font-weight: 600;
     letter-spacing: 10px;
-    margin-left: 150px;
+    margin-left: 120px;
     margin-right: 10px;
     text-transform: uppercase;
     grid-column: 3;
