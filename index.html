@@ -8,8 +8,11 @@
     <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet"> <!--League Spartan Font-->
 </head>
 <body>
+<main>
     <section class="container">
+
         <!--Navigation-->
+
         <nav id="navbar">
             <ul>
                 <li><a class="brand">room</a></li>
@@ -19,15 +22,17 @@
                 <li><a class="navlink">contact</a></li>
             </ul>
         </nav>
-        <!--Image Carousel-->
+
+        <!--Image Carousel & Header Section-->
 
             <!--Previous Button-->
             <a class="prev-button" onclick="plusSlides(-1)"><img src="images/icon-arrow-left.png" style="width: 85px;"></a>
 
-                <!--Image Container-->
-                <div class="imageSlide fade hero-image">
+                <!-- Slide 1 -->
+
+                <div class="imageSlide hero-image">
                     <img src="images/desktop-image-hero-1.jpg">
-                    <div class="hero-text">
+                    <div class="hero-text"> <!-- Div to hold the heading, heading text and shop now button-->
                         <h1 class="hero-heading heading">Discover innovative ways to decorate</h1>
                         <p class="heading-body-text">We provide unmatched quality, comfort and style for property owners across the country.
                         Our experts combine form and function in bringing your vision to life. Create a room in
@@ -39,7 +44,9 @@
                     </div>
                 </div>
                 
-                  <div class="imageSlide fade hero-image">
+                <!-- Slide 2 -->
+
+                  <div class="imageSlide hero-image">
                     <img src="images/desktop-image-hero-2.jpg">
                     <div class="hero-text">
                         <h1 class="hero-heading heading">We are available all across the globe</h1>
@@ -52,7 +59,9 @@
                     </div>
                   </div>
                 
-                  <div class="imageSlide fade hero-image">
+                <!-- Slide 3 -->
+
+                  <div class="imageSlide hero-image">
                     <img src="images/desktop-image-hero-3.jpg">
                     <div class="hero-text">
                         <h1 class="hero-heading heading">Manufactured with the best materials</h1>
@@ -68,6 +77,8 @@
             <!--Next Button-->
             <a class="next-button" onclick="plusSlides(+1)"><img src="images/icon-arrow-right.png" style="width: 85px;"></a>
 
+            <!-- About Section -->
+
             <img src="images/image-about-dark.jpg" class="about-image-1">
                 <div id="about-text">
                     <h2 class="subheading">About Our Furniture</h2>
@@ -79,6 +90,8 @@
                 </div>
             <img src="images/image-about-light.jpg" class="about-image-2">
     </section>
+
     <script src="app.js"></script>
+</main>
 </body>
 </html>
