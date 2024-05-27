@@ -21,3 +21,15 @@ function showSlides(n) {
   }
   slides[slideIndex-1].style.display = "grid";
 }
+
+document.addEventListener('keydown', function(event) {
+  if (event.key === "ArrowLeft") {
+    plusSlides(-1);
+  }
+});
+
+document.addEventListener('keydown', function(event) {
+  if (event.key === "ArrowRight") {
+    plusSlides(+1);
+  }
+});
