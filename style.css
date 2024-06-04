@@ -81,10 +81,13 @@ li {
 .prev-button {
     grid-column: 3 / 4; /* Align the arrow button in the space between the start of column 3 and the start of column 4 */
     grid-row: 1; /* Align in row 1 */
-    position: absolute;
-    bottom: 296px;
-    right: 515px;
     background-color: hsl(0, 0%, 27%);
+    width: 85px;
+    height: 80px;
+    padding-top: 5px;
+    position: fixed;
+    top: 449px;
+    left: 840px;
     z-index: 2;
 }
 
@@ -95,11 +98,14 @@ li {
 
 .next-button {
     grid-column: 3 / 4;
-    grid-row: 2;
-    position: absolute;
-    bottom: 296px; /* Align the button with the bottom of the header image */
+    grid-row: 1;
+    height: 80px;
+    padding-top: 5px;
+    position: fixed;
+    top: 449px;
     left: 924px;
-    background-color: hsl(0, 0%, 27%)
+    background-color: hsl(0, 0%, 27%);
+    width: 85px;
 }
 
 /****About Section ****/
