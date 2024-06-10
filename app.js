@@ -19,5 +19,17 @@ function showSlides(n) {
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
   }
-  slides[slideIndex-1].style.display = "inline";
+  slides[slideIndex-1].style.display = "grid";
 }
+
+document.addEventListener('keydown', function(event) {
+  if (event.key === "ArrowLeft") {
+    plusSlides(-1);
+  }
+});
+
+document.addEventListener('keydown', function(event) {
+  if (event.key === "ArrowRight") {
+    plusSlides(+1);
+  }
+});
