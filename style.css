@@ -3,6 +3,8 @@
     padding: 0;
 }
 
+/**** Desktop View (Default) ****/
+
 /**** Container Settings ****/
 
 .container {
@@ -65,6 +67,18 @@ li {
 
 .hero-image { /* Makes the image fill the grid area container */
     object-fit: cover;
+}
+
+.image-1 {
+    background-image: url(images/desktop-image-hero-1.jpg);
+}
+
+.image-2 {
+    background-image: url(images/desktop-image-hero-2.jpg);
+}
+
+.image-3 {
+    background-image: url(images/desktop-image-hero-3.jpg);
 }
 
 .hero-heading {
@@ -200,3 +214,25 @@ li {
     grid-row: 1;
     color: hsl(0, 0%, 0%);
 }
+
+/**** Mobile Formatting ****/
+@media (max-width: 600px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        padding: 0 !important; /* Resets padding and margin for the 'container' element */
+        margin: 0 !important;
+    }
+
+    .container > * { /* Resets padding and margin for all child elements of 'container' */
+        padding: 0 !important;
+        margin: 0 !important;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .hero-image {
+        width: 50%;
+    }
+}
+
