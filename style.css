@@ -88,11 +88,12 @@ li {
     position: fixed;
     top: 449px;
     left: 840px;
-    z-index: 2;
 }
 
 .prev-button:hover {
     background-color: hsl(0, 0%, 63%);
+    width: 85px;
+    height: 80px;
     z-index: 2;
 }
 
